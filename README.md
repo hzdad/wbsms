@@ -75,3 +75,21 @@ config/plugin/hzdad/wbsms/app.php
     }
 ~~~
 
+## 各大云商短信价格比较,仅供参考(2022年06月05日19:54:31)
+
+云商|1000条|5万条|20万条|是否支持国际短信
+:-|:-|:-|-:|:-:
+阿里云|50  |2150 | 7980 | 支持  
+腾讯云|50  |2350 | 8400 | 支持  
+七牛(618活动价)|23.65(原价43)  |1501.56(原价2085.2) | 6127.5(原价8170) | 支持  
+华为(618活动价)|65  |1800(原价3150) | 7000(原价12000) | 支持  
+
+
+
+阿里云 https://common-buy.aliyun.com/?spm=5176.8195934.J_5834642020.3.75eb437807Tgj1&&commodityCode=newdysmsbag#/buy
+腾讯云 https://buy.cloud.tencent.com/sms
+华为 https://www.huaweicloud.com/product/msgsms.html
+七牛 https://qmall.qiniu.com/template/MjI?spec_combo=MTA0OA&smsprice-txt=
+
+
+
