@@ -43,11 +43,9 @@ public function sendWithParam($nationCode, $phoneNumber, $templId = 0, $params,
 ~~~
 修改后:
 ~~~
-public function sendWithParam($nationCode, $phoneNumber, $templId = 0, $params=‘’,
+public function sendWithParam($nationCode, $phoneNumber, $templId = 0, $params='',
     $sign = "", $extend = "", $ext = "")
 ~~~
-
-
 
 
 ## 配置
@@ -74,6 +72,13 @@ config/plugin/hzdad/wbsms/app.php
         }
     }
 ~~~
+
+## 短信验证码创建并验证插件
+
+请参考 https://www.workerman.net/plugin/60
+
+或 https://github.com/hzdad/codecheck
+
 
 ## 各大云商短信价格比较,仅供参考,价格可能随时变动(2022年06月05日19:54:31)
 
