@@ -94,5 +94,13 @@ config/plugin/hzdad/wbsms/app.php
 
 七牛 https://qmall.qiniu.com/template/MjI?spec_combo=MTA0OA&smsprice-txt=
 
+##如果选购短信
+* 尽量不要购买小厂的短信, 到达率没保证, 而且价格偏高
+* 购买套餐包,套餐包比按量付费更优惠
+* 购买前在云商首页查看是否有优惠活动
+* 不考虑价格的情况下, 阿里云腾讯云无疑是最省心的
+* 七牛性价比较高
+* 不怕麻烦的情况下,也可以多个云商通道混搭使用
+
 
 
