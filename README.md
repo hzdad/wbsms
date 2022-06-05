@@ -94,7 +94,7 @@ config/plugin/hzdad/wbsms/app.php
 
 七牛 https://qmall.qiniu.com/template/MjI?spec_combo=MTA0OA&smsprice-txt=
 
-## 如何选购短信
+## 如何选购短信(个人建议,仅供参考)
 * 尽量不要购买小厂的短信, 到达率没保证, 而且价格偏高
 * 购买套餐包,套餐包比按量付费更优惠
 * 购买前在云商首页查看是否有优惠活动
