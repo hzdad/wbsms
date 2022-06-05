@@ -58,6 +58,20 @@ config/plugin/hzdad/wbsms/app.php
 ## 使用示例
 
 ~~~
+    public function sendsms(){
 
+        $action = 'register';//模板名称
+        $mobile = '13588888888';//手机号
+        $params = ['code' => '99999'];//参数
+        $areacode = "86";//国际区号,腾讯云选传,其他不传
+        $sms = new \Hzdad\Wbsms\Wbsms('qiniu');//传入短信服务商名称, 腾讯云 qcloud , 阿里云 aliyun, 七牛 qiniu, 华为 huawei
+        $result = $sms->sendsms($action,$mobile,$params,$areacode);
+        
+        if ($result['code'] == 200) {
+            echo '发送成功';
+        } else {
+            echo $result['msg'];
+        }
+    }
 ~~~
 
