@@ -1,0 +1,13 @@
+{
+  "name": "hzdad/wbsms",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin hzdad/wbsms",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Hzdad\\Wbsms\\": "src"
+    }
+  }
+}
